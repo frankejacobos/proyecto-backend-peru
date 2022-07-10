@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  div(class='container d-flex justify-content-center align-items-center')
+  div(class='text-center')
+    h1= title
+    code
+      a URL: https://
+    p Estructura:
+  div(class='row d-flex justify-content-center align-items-center')
+    div(class='col-12 col-lg-5 col-xl-3 p-4 m-2 list-group-item-success border border-success rounded')
+      h4 Paises
+      p Metodos 
+      code(class='list-group-item my-3') get('/api/paises')
+      code(class='list-group-item my-3') get('/api/paises/:id')
+      code(class='list-group-item my-3') post('/api/paises')
+    div(class='col-12 col-lg-5 col-xl-3 p-4 m-2 list-group-item-success border border-success rounded')
+      h4 Regiones
+      p Metodos 
+      code(class='list-group-item my-3') get('/api/regiones')
+      code(class='list-group-item my-3') get('/api/regiones/:id')
+      code(class='list-group-item my-3') post('/api/regiones')
+    div(class='col-12 col-lg-5 col-xl-3 p-4 m-2 list-group-item-success border border-success rounded')
+      h4 Departamentos
+      p Metodos 
+      code(class='list-group-item my-3') get('/api/departamentos')
+      code(class='list-group-item my-3') get('/api/departamentos/:id')
+      code(class='list-group-item my-3') post('/api/departamentos')
+    div(class='col-12 col-lg-5 col-xl-3 p-4 m-2 list-group-item-success border border-success rounded')
+      h4 Distritos
+      p Metodos 
+      code(class='list-group-item my-3') get('/api/distritos')
+      code(class='list-group-item my-3') get('/api/distritos/:id')
+      code(class='list-group-item my-3') post('/api/distritos')
+    div(class='col-12 col-lg-5 col-xl-3 p-4 m-2 list-group-item-success border border-success rounded')
+      h4 Provincias
+      p Metodos 
+      code(class='list-group-item my-3') get('/api/provincias')
+      code(class='list-group-item my-3') get('/api/provincias/:id')
+      code(class='list-group-item my-3') post('/api/provincias')

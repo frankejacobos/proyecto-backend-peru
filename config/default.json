@@ -1,0 +1,4 @@
+{
+  "clave-api-database": "miclavesegura",
+  "db": "mongodb+srv://root:root@cluster0.agkgn.mongodb.net/database-peru?retryWrites=true&w=majority"
+}
